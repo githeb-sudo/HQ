@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">AllEarsDeaf</string>
+    <string name="camera_error">Cet appareil ne prend pas en charge Camera2 API.</string>
+
+    <string name="model">Modéle:</string>
+    <string-array name="models">
+        <item>Quantized</item>
+        <item>FlOAT</item>
+    </string-array>
+
+    <string name="device">Appareil:</string>
+    <string-array name="devices">
+        <item>CPU</item>
+        <item>GPU</item>
+        <item>NNAPI</item>
+    </string-array>
+
+
+    <string name="action_settings">Paramétres</string>
+    <string name="title_menu">Menu</string>
+
+    <string-array name="dm_list_array">
+        <item>VoixOSignes</item>
+        <item>SignesOVoix</item>
+
+    </string-array>
+    <string name="drawer_open">Ouvrir le tiroir de navigation</string>
+    <string name="drawer_close">Fermer le tiroir de navigation</string>
+    <string name="title_activity_main">VoixOSignes</string>
+    <string name="title_activity_settings">Paramétres</string>
+
+    <string name="policy_legal_age">J\'ai l \'âge légal pour utiliser cette application</string>
+    <string name="policy_agree_statement">Je suis d\'accord avec la politique AllEarsDeaf</string>
+    <string name="policy_button_continue">Continuer</string>
+    <string name="privacy_policy_webpage">file:///android_asset/html/privacy_policy.html</string>
+    <string name="privacy_policy_title">Politique de confidentialité</string>
+
+    <string name="settings_category_profile">Profil de l\'utilisateur</string>
+    <string name="title_settings_user_s_profil">Profil de l\'utilisateur</string>
+    <string name="user_s_profile">Quel profil utilisateur êtes-vous?</string>
+    <string-array name="profile">
+        <item>Je suis sourd / malentendant</item>
+        <item>Je suis une personne entendante</item>
+    </string-array>
+    <string name="title_settings_language">Langue</string>
+    <string name="settings_language_summary">Changer la langue d\'application par défaut</string>
+    <string name="your_speech_hint">Ce que vous avez dit :  </string>
+    <string name="speech_location_hint">Le discours sera affiché sous forme de texte ici</string>
+    <string name="sentiment_hint">Vous semblez être: </string>
+    <string name="classifier_activity_label">SignesOVoix</string>
+    <string-array name="menu_values">
+        <item>MENU</item>
+        <item>SPEECHTOSIGN</item>
+        <item>SIGNTOSPEECH</item>
+    </string-array>
+ </resources>

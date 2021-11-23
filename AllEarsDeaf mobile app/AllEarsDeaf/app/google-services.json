@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "363494671560",
+    "firebase_url": "https://allears-580ae.firebaseio.com",
+    "project_id": "allears-580ae",
+    "storage_bucket": "allears-580ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363494671560:android:ef9bcf364483815cd7d1fd",
+        "android_client_info": {
+          "package_name": "tn.iheb.allearsdeaf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363494671560-ndn3i6fm56mgiujd0smvm2uklb9e7gjm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6XB4qr5DwXAk6ZxbGV7ZKfcemCpgA38U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363494671560-ndn3i6fm56mgiujd0smvm2uklb9e7gjm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

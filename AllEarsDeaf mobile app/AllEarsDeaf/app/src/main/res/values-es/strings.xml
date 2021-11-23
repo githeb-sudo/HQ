@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">AllEarsDeaf</string>
+    <string name="camera_error">Este dispositivo no es compatible con Camera2 API.</string>
+
+    <string name="model">Modelo:</string>
+    <string-array name="models">
+        <item>Quantized</item>
+        <item>FlOAT</item>
+    </string-array>
+
+    <string name="device">Dispositivo:</string>
+    <string-array name="devices">
+        <item>CPU</item>
+        <item>GPU</item>
+        <item>NNAPI</item>
+    </string-array>
+
+
+    <string name="action_settings">Configuraciones</string>
+    <string name="title_menu">Menú</string>
+    <string-array name="dm_list_array">
+        <item>Discurso_firmar</item>
+        <item>Firmar_discurso</item>
+
+    </string-array>
+    <string name="drawer_open">Abrir el cajón de navegación</string>
+    <string name="drawer_close">Cerrar el cajón de navegación</string>
+    <string name="title_activity_main">Discurso_firmar</string>
+    <string name="title_activity_settings">Configuraciones</string>
+
+    <string name="policy_legal_age">Tengo la edad legal para usar esta aplicación</string>
+    <string name="policy_agree_statement">Acepto la política de privacidad de AllEarsDeaf</string>
+    <string name="policy_button_continue">Seguir</string>
+    <string name="privacy_policy_webpage">file:///android_asset/html/privacy_policy.html</string>
+    <string name="privacy_policy_title">Política de privacidad</string>
+
+    <string name="settings_category_profile">Perfil del usuario</string>
+    <string name="title_settings_user_s_profil">Perfil del usuario</string>
+    <string name="user_s_profile">Que perfil de usuario eres?</string>
+    <string-array name="profile">
+        <item>Soy una persona sorda / con problemas de audición</item>
+        <item>Soy una persona oyente</item>
+    </string-array>
+    <string name="title_settings_language">Idioma</string>
+    <string name="settings_language_summary">Cambiar el idioma predeterminado de la aplicación</string>
+    <string name="your_speech_hint">lo que dijiste:  </string>
+    <string name="speech_location_hint">El discurso se mostrará como texto aquí.</string>
+    <string name="sentiment_hint">Pareces ser : </string>
+    <string name="classifier_activity_label">Firmar_discurso</string>
+    <string-array name="menu_values">
+        <item>MENU</item>
+        <item>SPEECHTOSIGN</item>
+        <item>SIGNTOSPEECH</item>
+    </string-array>
+ </resources>
