@@ -1,0 +1,24 @@
+body
+	{
+	background-color:rgb(255,200,200);
+	}
+h1
+	{
+	min_height=1000px;
+	border-radius: 20px 20px 20px 20px;
+	position:relative;
+	padding: 5% 5% 5% 5%;
+	text-align:center;
+	text_color=blue;
+	background-image: radial-gradient(circle 90vw,orange,rgba(255,0,0,1));
+	border-color:red;
+	box-shadow : 6px 6px 3vh red;
+	}
+h2
+	{
+	border: 10px ridge black;
+	border-radius: 20px 20px 20px 20px;
+	box-shadow : 6px 6px 3vh red;
+	position:relative;
+	background-image: radial-gradient(circle 500px, orange,rgba(255,0,0,1));
+	}
