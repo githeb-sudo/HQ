@@ -1,0 +1,88 @@
+body
+	{
+	background-image:repeating-linear-gradient(to right,rgba(100,100,255,1),#4bbefe );
+	}
+
+.title
+	{
+	text-align: center;
+    color:blue;
+    font: garamond bold;
+    font-size:40px;
+	}
+.ctrl
+{
+	display:inline;
+	
+	color:rgb(0,0,100);  
+	text-decoration:underline double;
+}
+center
+	{
+	border: 10px ridge #2421CC;
+	border-radius: 20px;
+	box-shadow : 6px 6px 25px blue;
+	position:relative;
+
+	}
+
+.fillinind
+	{
+	position:relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 5px ;
+	height: 100%;
+	font:  normal bold 30px/1 "Caviar" ;
+	color:#ffffff;
+	}
+input
+	{
+	position: relative;
+	display: block;
+	height: 40px;
+    width: 40%;
+    box-shadow : 6px 6px 25px blue;
+	border: 3px ridge #2421CC;
+
+	}
+
+.btn
+	{
+	display: inline;
+	height: 40px;
+	width: 20%;
+    background:repeating-linear-gradient( to right, rgba(60,50,255,1) , rgba(80,200,251,1),rgba(60,50,255,1)  );
+    font:  normal bold 25px/1 "Caviar" ;
+    color:white;
+    box-shadow : 6px 6px 25px blue;
+	border: 3px ridge #2421CC;
+	}
+
+
+a
+	{
+	font-style: italic;
+    color:rgb(180,0,255);
+	font-size: x-large;
+	}
+  
+input[type="text"]:invalid,input[type="number"]:invalid
+{
+color:red;
+font:  normal bold 35px/1 "Caviar" ;
+
+}
+input[type="text"]:valid,input[type="number"]:valid
+{
+color:rgb(0,0,100);
+font:  normal bold 28px/1 "Caviar" ;
+}
+
+option
+{
+	color:blue;
+	font:  normal bold 35px/1 "Caviar" ;
+}
+
