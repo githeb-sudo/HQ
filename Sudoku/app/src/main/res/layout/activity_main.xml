@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <view
+        class="tn.iheb.sudoku.GameView"
+        id="@+id/view"
+        layout_alignParentEnd="true"
+        layout_alignParentRight="true"
+        layout_alignParentTop="true"
+        layout_marginEnd="136dp"
+        layout_marginRight="136dp"
+        layout_marginTop="165dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        />
+
+    <Button
+        android:id="@+id/export"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="47dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="23dp"
+        android:background="@drawable/splash_background"
+        android:text="Push" />
+
+    <Button
+        android:id="@+id/log"
+        style="@android:style/Widget.DeviceDefault.Light.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:text="Button" />
+
+</RelativeLayout>
+
